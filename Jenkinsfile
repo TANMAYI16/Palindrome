@@ -4,12 +4,12 @@ agent any
 stages {
 stage('Build'){
 steps{
-bat 'javac prime.java'
+bat 'javac palindrome.java'
 }
 }
 stage('Run'){
 steps{
-bat 'java prime'
+bat 'java palindrome'
 }
 }
 }
