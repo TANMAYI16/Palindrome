@@ -4,12 +4,12 @@ agent any
 stages {
 stage('Build'){
 steps{
-bat 'javac palindrome.java'
+bat 'javac Palindrome.java'
 }
 }
 stage('Run'){
 steps{
-bat 'java palindrome'
+bat 'java Palindrome'
 }
 }
 }
